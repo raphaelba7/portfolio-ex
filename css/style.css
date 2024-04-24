@@ -1,0 +1,237 @@
+/* Global rules*/
+body{
+    background-color: #5c48d2;
+    font-family: Verdana, Tahoma, Arial, sans-serif;
+    font-size: 16px;
+}
+
+p{
+    line-height: 30px;
+}
+
+header{
+    font-size: 48px;
+    color: white;
+    line-height: 200px;
+    text-align: center;
+}
+
+/* Link rules*/
+a{
+    font-size: 20px;
+    color: #190f33;
+    text-decoration: none;
+    flex: 1;
+}
+
+a:hover{
+    color: #5c48d2;
+    text-decoration: none;
+}
+
+/* Title rules */
+
+h1 {
+    font-size: 48px;
+    color: white;
+    line-height: 200px;
+    text-align: center;
+  }
+  
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #190f33;
+    text-align: center;
+    margin-bottom: 80px;
+  }
+h3{
+    font-size: 26px;
+    font-weight: bold;
+    color: #190f33;
+    margin-bottom: 40px;
+}
+
+/* Main rules */
+.main-block{
+    width: 1024px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+/* Nav Rules */
+nav{
+    height: 100px;
+    border-radius: 20px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+.link {
+    flex: 1;
+    text-align: center;
+    color: #190f33;
+    font-size: 20px;
+    text-decoration: none;
+    height: 20px;
+  }
+
+/* Main Picture Rules */
+.img-main{
+    height: 400px;
+    width: 1024px;
+    object-fit: cover;
+}
+
+/* All sections Rules */
+#about-me,
+#education,
+#projects,
+#contact {
+  padding: 100px;
+}
+
+#education,
+#contact {
+  background-color: #eeeef7;
+}
+
+/* Section About Me */
+
+.about-text{
+    text-align: justify; 
+}
+
+.informations{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.name{
+    font-size: 38px;
+    font-weight: bold;
+    color: #190f33;
+    margin-bottom: 50px;
+}
+
+.city{
+    font-size: 30px;
+    font-style: italic;
+    color: #190f33;
+}
+
+
+.img-profil{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: solid 5px #fcc01a;
+    margin-right: 60px;
+}
+
+/* Section Education */
+.education-text,
+.education-text {
+  text-align: center;
+  margin-bottom: 80px;
+  margin-top: 80px;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logos img {
+  height: 100px;
+}
+
+.education-text span {
+  font-weight: bold;
+}
+
+/* Section Projects */
+.project {
+    display: flex;
+    margin-bottom: 180px;
+  }
+  
+  .projects-text {
+    text-align: center;
+    margin-bottom: 120px;
+  }
+  
+  .project img {
+    width: 500px;
+    margin-right: 60px;
+  }
+  
+  .project-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  li {
+    list-style-type: disc;
+    line-height: 30px;
+  }
+  
+  /* Section contact */
+  
+  #contact {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  
+  .contact-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .contact-line {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .contact-line img {
+    height: 30px;
+    margin-right: 20px;
+  }
+  
+
+  /* FOOTER */
+  
+  footer {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer p {
+    color: #c4c4c4;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: #fcc01a;
+  }
+  
+  footer p,
+  footer a {
+    line-height: 40px;
+  }
+  
+  footer a:hover {
+    color: #190f33;
+  }
+  
